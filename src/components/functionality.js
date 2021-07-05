@@ -76,7 +76,7 @@ export const RevealImage = () => {
 
 export const ScrollTo = () => {
   const btnScrollTo = document.querySelector(".btn--scroll-to");
-  const section1 = document.querySelector("#Features");
+  const section1 = document.querySelector("Features");
 
   btnScrollTo.addEventListener("click", function (e) {
     const s1coords = section1.getBoundingClientRect();

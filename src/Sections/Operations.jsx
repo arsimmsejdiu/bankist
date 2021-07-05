@@ -11,7 +11,7 @@ function Operations() {
   });
 
   return (
-    <section className="section" id="section--2">
+    <section className="section" id="operations">
       <div className="section__title">
         <h2 className="section__description">Operations</h2>
         <h3 className="section__header">

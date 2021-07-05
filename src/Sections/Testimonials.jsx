@@ -8,7 +8,7 @@ function Testimonials() {
   });
 
   return (
-    <section className="section" id="section--3">
+    <section className="section" id="testimonials">
       <div className="section__title section__title--testimonials">
         <h2 className="section__description">Not sure yet?</h2>
         <h3 className="section__header">

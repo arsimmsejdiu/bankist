@@ -44,12 +44,12 @@ export const navItem = [
   {
     id: 2,
     navName: "Operations",
-    href: "#section--2"
+    href: "#operations"
   },
   {
     id: 3,
     navName: "Testimonials",
-    href: "#section--3"
+    href: "#testimonials"
   },
 ];
 
