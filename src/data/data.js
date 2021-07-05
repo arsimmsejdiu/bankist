@@ -39,14 +39,17 @@ export const navItem = [
   {
     id: 1,
     navName: "Features",
+    href: "#Features"
   },
   {
     id: 2,
     navName: "Operations",
+    href: "#section--2"
   },
   {
     id: 3,
     navName: "Testimonials",
+    href: "#section--3"
   },
 ];
 

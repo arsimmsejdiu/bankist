@@ -22,7 +22,7 @@ function Navigation() {
       <ul className="nav__links">
         {navItem.map((item) => (
           <li key={item.id} className="nav__item">
-            <a className="nav__link" href="#Features">
+            <a className="nav__link" href={item.href}>
               {item.navName}
             </a>
           </li>
