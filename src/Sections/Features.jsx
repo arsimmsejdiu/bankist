@@ -12,26 +12,26 @@ import credit from "../img/credit-card.svg";
 
 function Features() {
   return (
-    <section class="section" id="Features">
-      <div class="section__title">
-        <h2 class="section__description">Features</h2>
-        <h3 class="section__header">
+    <section className="section" id="Features">
+      <div className="section__title">
+        <h2 className="section__description">Features</h2>
+        <h3 className="section__header">
           Everything you need in a modern bank and more.
         </h3>
       </div>
 
-      <div class="features">
+      <div className="features">
         <img
           src={digitalLazy}
           data-src={digital}
           alt="Computer"
-          class="features__img lazy-img"
+          className="features__img lazy-img"
         />
-        <div class="features__feature">
-          <div class="features__icon">
+        <div className="features__feature">
+          <div className="features__icon">
             <img src={monitor} alt="monitor"/>
           </div>
-          <h5 class="features__header">100% digital bank</h5>
+          <h5 className="features__header">100% digital bank</h5>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
             sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
@@ -39,11 +39,11 @@ function Features() {
           </p>
         </div>
 
-        <div class="features__feature">
-          <div class="features__icon">
+        <div className="features__feature">
+          <div className="features__icon">
           <img src={profit} alt="profit"/>
           </div>
-          <h5 class="features__header">Watch your money grow</h5>
+          <h5 className="features__header">Watch your money grow</h5>
           <p>
             Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
             inventore ab? Nulla incidunt eius numquam sequi iste pariatur
@@ -54,20 +54,20 @@ function Features() {
           src={growLazy}
           data-src={grow}
           alt="Credit card"
-          class="features__img lazy-img"
+          className="features__img lazy-img"
         />
 
         <img
           src={cardLazy}
           data-src={card}
           alt="Credit card"
-          class="features__img lazy-img"
+          className="features__img lazy-img"
         />
-        <div class="features__feature">
-          <div class="features__icon">
+        <div className="features__feature">
+          <div className="features__icon">
             <img src={credit} alt="Credit Card"/>
           </div>
-          <h5 class="features__header">Free debit card included</h5>
+          <h5 className="features__header">Free debit card included</h5>
           <p>
             Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
             eveniet consequatur odit quam quos possimus assumenda dicta fuga
