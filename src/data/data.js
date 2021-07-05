@@ -34,3 +34,49 @@ export const testimonialItem = [
     place: "Lisbon, Portugal",
   },
 ];
+
+export const navItem = [
+  {
+    id: 1,
+    navName: "Features",
+  },
+  {
+    id: 2,
+    navName: "Operations",
+  },
+  {
+    id: 3,
+    navName: "Testimonials",
+  },
+];
+
+export const footerItem = [
+  {
+    id: 1,
+    navName: "About",
+  },
+  {
+    id: 2,
+    navName: "Pricing",
+  },
+  {
+    id: 3,
+    navName: "Terms of Use",
+  },
+  {
+    id: 4,
+    navName: "Privacy Policy",
+  },
+  {
+    id: 5,
+    navName: "Careers",
+  },
+  {
+    id: 6,
+    navName: "Blogs",
+  },
+  {
+    id: 7,
+    navName: "Contact Us",
+  },
+];
