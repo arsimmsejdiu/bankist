@@ -196,7 +196,7 @@ h4 {
 
 .highlight::after {
   display: block;
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -220,6 +220,11 @@ h4 {
   width: 100%;
 }
 
+.img {
+  width: 5rem;
+  height: 5rem;
+}
+
 .features__feature {
   align-self: center;
   justify-self: center;
@@ -238,7 +243,7 @@ h4 {
   margin-bottom: 2rem;
 }
 
-.features__icon svg {
+.features__icon img {
   height: 2.5rem;
   width: 2.5rem;
   fill: var(--color-primary);
@@ -324,7 +329,7 @@ h4 {
   border-radius: 50%;
 }
 
-.operations__icon svg {
+.operations__icon img {
   height: 2.75rem;
   width: 2.75rem;
 }
@@ -450,7 +455,7 @@ h4 {
 }
 
 .testimonial::before {
-  content: '\201C';
+  content: "\201C";
   position: absolute;
   top: -5.7rem;
   left: -6.8rem;

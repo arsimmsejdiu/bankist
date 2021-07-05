@@ -1,5 +1,4 @@
 import React from "react";
-import { Feature, Trending, Credit } from "../components/svg";
 
 import digitalLazy from "../img/digital-lazy.jpg";
 import digital from "../img/digital.jpg";
@@ -7,6 +6,9 @@ import growLazy from "../img/grow-lazy.jpg";
 import grow from "../img/grow.jpg";
 import cardLazy from "../img/card-lazy.jpg";
 import card from "../img/card.jpg";
+import monitor from '../img/monitor.svg';
+import profit from '../img/profits.svg';
+import credit from "../img/credit-card.svg";
 
 function Features() {
   return (
@@ -27,7 +29,7 @@ function Features() {
         />
         <div class="features__feature">
           <div class="features__icon">
-            <Feature />
+            <img src={monitor} alt="monitor"/>
           </div>
           <h5 class="features__header">100% digital bank</h5>
           <p>
@@ -39,7 +41,7 @@ function Features() {
 
         <div class="features__feature">
           <div class="features__icon">
-            <Trending />
+          <img src={profit} alt="profit"/>
           </div>
           <h5 class="features__header">Watch your money grow</h5>
           <p>
@@ -63,7 +65,7 @@ function Features() {
         />
         <div class="features__feature">
           <div class="features__icon">
-            <Credit />
+            <img src={credit} alt="Credit Card"/>
           </div>
           <h5 class="features__header">Free debit card included</h5>
           <p>

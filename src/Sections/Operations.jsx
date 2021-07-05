@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
-
-import { Upload, Home, User } from "../components/svg";
+import upload from "../img/upload.svg";
+import home from "../img/home.svg";
+import user from "../img/user.svg";
 
 function Operations() {
   useEffect(() => {
@@ -47,16 +48,22 @@ function Operations() {
           >
             <span>01</span>Instant Transfers
           </button>
-          <button className="btn operations__tab operations__tab--2" data-tab="2">
+          <button
+            className="btn operations__tab operations__tab--2"
+            data-tab="2"
+          >
             <span>02</span>Instant Loans
           </button>
-          <button className="btn operations__tab operations__tab--3" data-tab="3">
+          <button
+            className="btn operations__tab operations__tab--3"
+            data-tab="3"
+          >
             <span>03</span>Instant Closing
           </button>
         </div>
         <div className="operations__content operations__content--1 operations__content--active">
           <div className="operations__icon operations__icon--1">
-            <Upload />
+            <img src={upload} alt="Upload" />
           </div>
           <h5 className="operations__header">
             Tranfser money to anyone, instantly! No fees, no BS.
@@ -71,7 +78,7 @@ function Operations() {
 
         <div className="operations__content operations__content--2">
           <div className="operations__icon operations__icon--2">
-            <Home />
+            <img src={home} alt="Home" />
           </div>
           <h5 className="operations__header">
             Buy a home or make your dreams come true, with instant loans.
@@ -85,7 +92,7 @@ function Operations() {
         </div>
         <div className="operations__content operations__content--3">
           <div className="operations__icon operations__icon--3">
-            <User />
+            <img src={user} alt="User" />
           </div>
           <h5 className="operations__header">
             No longer need your account? No problem! Close it instantly.
