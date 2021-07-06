@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { StickyNav } from "./functionality";
 import { navItem } from "../data/data";
+import { Link } from 'react-router-dom';
 
 import logo from "../img/logo.png";
 import { motion } from "framer-motion";
@@ -28,11 +29,11 @@ function Navigation() {
             </motion.a>
           </li>
         ))}
-        <li className="nav__item">
-          <motion.a whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="nav__link nav__link--btn btn--show-modal" href="/">
+        <motion.li whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="nav__item">
+          <Link to="/account" className="nav__link nav__link--btn btn--show-modal">
             Open account
-          </motion.a>
-        </li>
+          </Link>
+        </motion.li>
       </ul>
     </nav>
   );
