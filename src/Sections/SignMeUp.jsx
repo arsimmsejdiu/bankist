@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 
 function SignMeUp() {
@@ -9,7 +10,13 @@ function SignMeUp() {
           today!
         </h3>
       </div>
-      <button className="btn btn--show-modal">Open your free account today!</button>
+      <motion.button
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+        className="btn btn--show-modal"
+      >
+        Open your free account today!
+      </motion.button>
     </section>
   );
 }

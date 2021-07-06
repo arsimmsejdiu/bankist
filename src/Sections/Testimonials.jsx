@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+
 import { Slider } from "../components/functionality";
 import { testimonialItem } from "../data/data";
 

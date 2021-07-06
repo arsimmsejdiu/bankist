@@ -3,6 +3,7 @@ import { StickyNav } from "./functionality";
 import { navItem } from "../data/data";
 
 import logo from "../img/logo.png";
+import { motion } from "framer-motion";
 
 function Navigation() {
   useEffect(() => {
@@ -22,15 +23,15 @@ function Navigation() {
       <ul className="nav__links">
         {navItem.map((item) => (
           <li key={item.id} className="nav__item">
-            <a className="nav__link" href={item.href}>
+            <motion.a whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="nav__link" href={item.href}>
               {item.navName}
-            </a>
+            </motion.a>
           </li>
         ))}
         <li className="nav__item">
-          <a className="nav__link nav__link--btn btn--show-modal" href="/">
+          <motion.a whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="nav__link nav__link--btn btn--show-modal" href="/">
             Open account
-          </a>
+          </motion.a>
         </li>
       </ul>
     </nav>
